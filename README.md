@@ -7,6 +7,8 @@ Requried toolboxes:
 
 control_toolbox
 
+distrib_computing_toolbox
+
 image_toolbox
 
 matlab 2022b
