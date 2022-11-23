@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/02/22||16:23:47" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="4-part Bicycle" uid="4-part Bicycle" version="1130">
+<AssemblyFile name="4-part Bicycle.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="BackWheelass-1" uid="BackWheelass-1" entityUid="BackWheelass" rigid="true">
+<Transform>
+<Rotation>0.99455421570109148 8.7707981290441293e-15 -0.10422049717395941 -8.3677468773617968e-15 1 4.3045294199229771e-15 0.10422049717395941 -3.4089971414092768e-15 0.99455421570109148</Rotation>
+<Translation>-0.0028761710264867658 0.0047407179135113171 -0.35827937645160168</Translation>
+</Transform>
+<Instance name="Backwheel-1" uid="Backwheel-1" entityUid="Backwheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-12" uid="Magnet-12" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.053033008588990641 0.03449999999999992 -0.053033008588991515</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-7" uid="Magnet-7" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.053033008588990627 0.03449999999999994 0.053033008588991515</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet holder-2" uid="Magnet holder-2" entityUid="Magnet holder*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0 0.024499999999999932 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-11" uid="Magnet-11" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.072444436971680154 0.034499999999999927 0.019411428382689055</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-6" uid="Magnet-6" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.072444436971680029 0.034499999999999933 0.019411428382689611</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-2" uid="Magnet-2" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>-0.83716910433122249 -0.54694413860398872 0 0 0 1 -0.54694413860398872 0.83716910433122249 0</Rotation>
+<Translation>-0.019411428382689361 0.027499999999999941 -0.072444436971680071</Translation>
+</Transform>
+</Instance>
+<Instance name="BrakeDisc-2" uid="BrakeDisc-2" entityUid="BrakeDisc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 2.4492935982947138e-16 1 0 -1 2.4492935982947138e-16</Rotation>
+<Translation>0 -0.046500000000000034 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-3" uid="Magnet-3" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.053033008588991348 0.03449999999999994 -0.053033008588990849</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-4" uid="Magnet-4" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.072444436971680126 0.034499999999999933 -0.019411428382689111</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-8" uid="Magnet-8" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.019411428382688355 0.03449999999999994 0.072444436971680348</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet holder-1" uid="Magnet holder-1" entityUid="Magnet holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.024499999999999938 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-10" uid="Magnet-10" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.019411428382689375 0.034499999999999933 0.072444436971680015</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-1" uid="Magnet-1" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.019411428382688355 0.034499999999999927 -0.072444436971680348</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-9" uid="Magnet-9" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.072444436971680043 0.034499999999999927 -0.019411428382689611</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet-5" uid="Magnet-5" entityUid="Magnet*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.053033008588991369 0.03449999999999992 0.053033008588990849</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Frontwheel-1" uid="Frontwheel-1" entityUid="Frontwheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.0776045362487621 0.0047407179132116463 -0.35827937645157798</Translation>
+</Transform>
+</Instance>
+<Instance name="Frame-1" uid="Frame-1" entityUid="Frame" rigid="true">
+<Transform>
+<Rotation>0.96236660128842777 3.4359701876118803e-15 0.27175453027421725 -3.3381745025166398e-15 1 -8.221483442863105e-16 -0.27175453027421725 -1.1595593605905396e-16 0.96236660128842777</Rotation>
+<Translation>0.45003305358944368 0.0047407179135111142 -0.28150159039314482</Translation>
+</Transform>
+<Instance name="ComponentMount-1" uid="ComponentMount-1" entityUid="ComponentMount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018499999999997851 0 -0.17561306038832908</Translation>
+</Transform>
+</Instance>
+<Instance name="Cogwheel-1" uid="Cogwheel-1" entityUid="Cogwheel*:*Default">
+<Transform>
+<Rotation>0.99923090801466241 0.034899496702495571 -0.01787785216701894 -0.017888749509882507 -4.6526965440447966e-16 -0.99983998351784908 -0.034893912207804405 0.99939082701909587 0.00062430835453144886</Rotation>
+<Translation>0.62292035685176639 0 -0.54666863429776835</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder2-1" uid="Holder2-1" entityUid="Holder2" rigid="true">
+<Transform>
+<Rotation>0 -0.034899496702495467 0.99939082701909587 -1 0 0 0 -0.99939082701909587 -0.034899496702495467</Rotation>
+<Translation>0.57110438857311763 0 -0.44579883592793557</Translation>
+</Transform>
+<Instance name="Motorfäste3-1" uid="Motorfäste3-1" entityUid="Motorfäste3*:*Default">
+<Transform>
+<Rotation>-1.9428902930940442e-16 1 -2.5239066527866603e-16 0 2.5239066527866603e-16 1 1 1.9428902930940447e-16 0</Rotation>
+<Translation>-8.1878948066105295e-16 0.075000000000000178 0.022804708586383393</Translation>
+</Transform>
+</Instance>
+<Instance name="Cogwheel-1" uid="Cogwheel-1" entityUid="Cogwheel*:*Default">
+<Transform>
+<Rotation>0.60571528372827144 1.4747392074861324e-16 0.79568146582535126 0 -1 1.8534291306589661e-16 0.79568146582535126 -1.122650351747339e-16 -0.60571528372827144</Rotation>
+<Translation>-7.9797279894933126e-16 0.094000000000000083 0.055304708586383589</Translation>
+</Transform>
+</Instance>
+<Instance name="Motorfäste2-2" uid="Motorfäste2-2" entityUid="Motorfäste2*:*Default">
+<Transform>
+<Rotation>-1.3244171698965159e-16 1 0 0 0 1 1 1.3244171698965159e-16 0</Rotation>
+<Translation>0 0.072000000000000064 0.010500000000000176</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor-1" uid="Motor-1" entityUid="Motor*:*Default">
+<Transform>
+<Rotation>0 1 -2.3565909467239966e-16 0 2.356590946723998e-16 1 1.0000000000000004 0 0</Rotation>
+<Translation>-7.6154360595381831e-16 -0.073200000000000098 0.055304708586383589</Translation>
+</Transform>
+</Instance>
+<Instance name="U-Bolt-5" uid="U-Bolt-5" entityUid="U-Bolt*:*Motor">
+<Transform>
+<Rotation>-4.5408835011650849e-16 -6.3837823915946432e-16 1 0 -1 -6.3837823915946432e-16 1 0 4.5408835011650849e-16</Rotation>
+<Translation>0 0 0.055304708586383367</Translation>
+</Transform>
+</Instance>
+<Instance name="U-Bolt-2" uid="U-Bolt-2" entityUid="U-Bolt*:*Default">
+<Transform>
+<Rotation>0 6.8014233854296801e-16 1 0 -1 6.8014233854296801e-16 1 0 0</Rotation>
+<Translation>0 0.068000000000000171 -0.025499999999999856</Translation>
+</Transform>
+</Instance>
+<Instance name="Bar Shield-1" uid="Bar Shield-1" entityUid="Bar Shield*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Holder-1" uid="Motor Holder-1" entityUid="Motor Holder*:*Default">
+<Transform>
+<Rotation>-2.0642640518950649e-16 7.7715611723760899e-16 -1 -1.6653345369377343e-16 1 7.7715611723760899e-16 1 1.665334536937736e-16 -2.0642640518950637e-16</Rotation>
+<Translation>0 -0.011719506692980941 0.071304708586383603</Translation>
+</Transform>
+</Instance>
+<Instance name="U-Bolt-3" uid="U-Bolt-3" entityUid="U-Bolt*:*Motor">
+<Transform>
+<Rotation>-4.4781431118836964e-16 -3.8857805861880459e-16 1 -4.4408920985006242e-16 -1 -3.8857805861880479e-16 1 -4.4408920985006262e-16 4.4781431118836944e-16</Rotation>
+<Translation>0 0.030000000000000027 0.055304708586383367</Translation>
+</Transform>
+</Instance>
+<Instance name="U-Bolt-4" uid="U-Bolt-4" entityUid="U-Bolt*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0 -0.067000000000000115 -0.025499999999999856</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SupportBar-1" uid="SupportBar-1" entityUid="SupportBar*:*Default">
+<Transform>
+<Rotation>1 1.1102230246251565e-16 -1.1449174941446712e-16 1.1449174941447139e-16 0 1 1.1102230246251565e-16 -1 0</Rotation>
+<Translation>-0.0089906628765412666 0 -0.47411018025863616</Translation>
+</Transform>
+</Instance>
+<Instance name="IMU-1" uid="IMU-1" entityUid="IMU*:*Default">
+<Transform>
+<Rotation>6.6405761216383819e-16 0.97679230377478377 -0.21418869084606382 -1 6.6041262604898625e-16 0 0 0.21418869084606382 0.97679230377478377</Rotation>
+<Translation>-0.053444672041929542 0 0.010291599988854705</Translation>
+</Transform>
+</Instance>
+<Instance name="Junus-1" uid="Junus-1" entityUid="Junus*:*Default">
+<Transform>
+<Rotation>0.79194804650516093 -0.61058847977722275 0 0 0 1 -0.61058847977722275 -0.79194804650516093 0</Rotation>
+<Translation>0.21147658122443491 0.045000000000000012 -0.24246560754293145</Translation>
+</Transform>
+</Instance>
+<Instance name="Kickstand-1" uid="Kickstand-1" entityUid="Kickstand*:*Default">
+<Transform>
+<Rotation>-0.90589534484865342 0.40713093676151574 0.11661056775965913 -0.12767070593537239 0 -0.99181661149930511 -0.40379922613534447 -0.91336980480618646 0.051978694104472145</Rotation>
+<Translation>-0.3603206980838034 -0.081036463586102697 -0.12921662381565557</Translation>
+</Transform>
+</Instance>
+<Instance name="RoboRIO-1" uid="RoboRIO-1" entityUid="RoboRIO*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0 -1 0 1.0000000000000002 0</Rotation>
+<Translation>0.11160213378537509 -0.0024999999999999974 -0.36253806038832914</Translation>
+</Transform>
+</Instance>
+<Instance name="Pegs-1" uid="Pegs-1" entityUid="Pegs*:*Default">
+<Transform>
+<Rotation>0.15755724182795608 0.98750985592426721 0 0 0 -1 -0.98750985592426721 0.15755724182795608 0</Rotation>
+<Translation>-0.41500000000000004 0.17900000000000005 -0.19696851061588938</Translation>
+</Transform>
+</Instance>
+<Instance name="Pegs-2" uid="Pegs-2" entityUid="Pegs*:*Default">
+<Transform>
+<Rotation>0.87520807003256818 -0.48374666319248871 0 0 0 -0.99999999999999989 0.48374666319248871 0.87520807003256818 0</Rotation>
+<Translation>-0.41499999999999998 -0.079000000000000001 -0.19696851061588949</Translation>
+</Transform>
+</Instance>
+<Instance name="seat-1" uid="seat-1" entityUid="seat*:*Valor predeterminado">
+<Transform>
+<Rotation>-0.95266148125347694 0.30403306092583299 5.0082323136012776e-10 -4.7711498636176686e-10 1.5226686723976873e-10 -1 -0.30403306092583293 -0.95266148125347727 0</Rotation>
+<Translation>0.53401584330552787 2.6744753547219835e-10 -0.35616858204240143</Translation>
+</Transform>
+</Instance>
+<Instance name="Frame-2" uid="Frame-2" entityUid="Frame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery-2" uid="Battery-2" entityUid="Battery*:*Default">
+<Transform>
+<Rotation>-0.79194804650516082 -1.4933348434769436e-16 -0.61058847977722253 -1.9428902930940442e-16 1 0 0.61058847977722253 1.2451048557315568e-16 -0.79194804650516082</Rotation>
+<Translation>0.22712612244074404 0 -0.18900304695405712</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Fork-2" uid="Fork-2" entityUid="Fork" rigid="true">
+<Transform>
+<Rotation>0.95229625722400502 3.5671022457070335e-15 0.30517509478519383 -3.3100941655254123e-15 1 -1.0509587785995236e-15 -0.30517509478519372 0 0.95229625722400502</Rotation>
+<Translation>0.90175739798122512 -0.020509282086483799 -0.79232060025773643</Translation>
+</Transform>
+<Instance name="Handle bar-1" uid="Handle bar-1" entityUid="Handle bar*:*Default">
+<Transform>
+<Rotation>0 -0.70710678118654746 -0.70710678118654757 -1 0 0 0 0.70710678118654757 -0.70710678118654746</Rotation>
+<Translation>0.065500000000000336 0.025249999999993274 -0.20900000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Fork-2" uid="Fork-2" entityUid="Fork*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Cogwheel-1" uid="Cogwheel-1" entityUid="Cogwheel*:*Steering">
+<Transform>
+<Rotation>1 0 0 1.1512502834181264e-16 0 0.99999999999999978 0 -1 0</Rotation>
+<Translation>-0.025249999999999773 0.025249999999993267 -0.15999999999999998</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="FrontWheel2Frame">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fork-2</Uid>
+<Uid>Fork-2</Uid>
+</InstancePath>
+<Position>0.035000000000007025 -0.00049999999999093825 0.46700000000000019</Position>
+<Axis>-2.6165915098010667e-13 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Frontwheel-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.073499999999999996 0</Position>
+<Axis>-3.4914813388431334e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Fork2FrameCylinder">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Frame-1</Uid>
+<Uid>Frame-2</Uid>
+</InstancePath>
+<Position>0.54307225922484859 0 -0.51786442913441622</Position>
+<Axis>-0.034899496702495592 0 -0.99939082701909598</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fork-2</Uid>
+<Uid>Fork-2</Uid>
+</InstancePath>
+<Position>-0.025249999999999995 0.025249999999993267 -0.23000000000000004</Position>
+<Axis>1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Fork2Frame_Bottom">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Frame-1</Uid>
+<Uid>Frame-2</Uid>
+</InstancePath>
+<Position>0.53371607765574403 0 -0.36744627242969508</Position>
+<Axis>0.034899496702495536 0 0.9993908270190961</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fork-2</Uid>
+<Uid>Fork-2</Uid>
+</InstancePath>
+<Position>-0.025249999999999995 0.025249999999993274 0</Position>
+<Axis>-1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="FrontWheel2Fork">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fork-2</Uid>
+<Uid>Handle bar-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Frontwheel-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Frame-1</Uid>
+<Uid>Frame-2</Uid>
+</InstancePath>
+<Position>-0.41500000000000004 0.079000000000000001 -0.19696851061588938</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BackWheelass-1</Uid>
+<Uid>Backwheel-1</Uid>
+</InstancePath>
+<Position>5.8286708792820718e-16 -0.16896155220719705 0</Position>
+<Axis>3.4914813388431282e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Frame-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BackWheelass-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="BackWheelass" uid="BackWheelass" version="188">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="BackWheelass.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Frame" uid="Frame" version="511">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Frame.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Holder2" uid="Holder2" version="405">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Holder2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Fork" uid="Fork" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Fork.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Backwheel" uid="Backwheel*:*Default" version="632">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Backwheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.3099999999999996</Mass>
+<CenterOfMass>-1.3058297297721426e-09 0.00065036896482311367 -3.4949300344497743e-08</CenterOfMass>
+<Inertia>0.24273724054083548 0.48292874576973777 0.24273719671998645 3.6775960122980778e-10 -7.0107068486753289e-09 1.3583382419257669e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Backwheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bar Shield" uid="Bar Shield*:*Default" version="506">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bar Shield.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034729247870040753</Mass>
+<CenterOfMass>0 -0.00018236648295226606 0.0015</CenterOfMass>
+<Inertia>6.3394742470252309e-05 1.8221914344457767e-05 8.1564562942905013e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bar Shield_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery" uid="Battery*:*Default" version="525">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Battery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.5600000000000001</Mass>
+<CenterOfMass>0.0061300185054404604 1.324854630393306e-05 0.050259101271650161</CenterOfMass>
+<Inertia>0.0035427352670874992 0.024885300408542817 0.024359402147022636 4.8227678648491968e-07 -0.00025130450204815228 -4.4599697359244514e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Battery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.071372549019607837" g="0.071372549019607837" b="0.071372549019607837" a="1"/>
+<Specular r="0.0050980392156862748" g="0.0050980392156862748" b="0.0050980392156862748" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BrakeDisc" uid="BrakeDisc*:*Default" version="400">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BrakeDisc.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14999999999999999</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>0.000251534375 0.00025153437499999995 0.00050296875000000005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BrakeDisc_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cogwheel" uid="Cogwheel*:*Default" version="539">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cogwheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.059999999999999998</Mass>
+<CenterOfMass>0 0.0089555774738953944 -8.4588567528183899e-06</CenterOfMass>
+<Inertia>1.8127351914835358e-05 3.3372226419361719e-05 1.8130147223443391e-05 7.8384293484887638e-10 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cogwheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cogwheel" uid="Cogwheel*:*Steering" version="556">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cogwheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.059999999999999998</Mass>
+<CenterOfMass>0 0.0085821742375411358 0</CenterOfMass>
+<Inertia>2.1129883543345224e-05 3.9829070461715931e-05 2.1129883543345228e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cogwheel_Steering_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ComponentMount" uid="ComponentMount*:*Default" version="398">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ComponentMount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17000000000000001</Mass>
+<CenterOfMass>0.11666666666666613 0 -0.18000000000000005</CenterOfMass>
+<Inertia>0.00068885416666666693 0.001845444444444441 0.001157298611111107 0 0.00044624999999999862 0</Inertia>
+</MassProperties>
+<GeometryFile name="ComponentMount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Fork" uid="Fork*:*Default" version="1111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Fork.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.75</Mass>
+<CenterOfMass>-0.0013605098411420681 0.025250042207076478 0.12282114061672642</CenterOfMass>
+<Inertia>0.089202336503014845 0.083734639471234815 0.0074969904392177033 -6.1624510040378941e-08 -0.0064243445582143743 -9.3049543473855261e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Fork_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Frame" uid="Frame*:*Default" version="2278">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Frame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.8600000000000003</Mass>
+<CenterOfMass>0.10458245800990074 7.1592518817392612e-06 -0.28028012803230423</CenterOfMass>
+<Inertia>0.17023299570733263 0.66161665212643328 0.50464479324096023 -4.7536697194423821e-07 0.16164691979520662 -7.2140455159293619e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Frame_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Frontwheel" uid="Frontwheel*:*Default" version="2341">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Frontwheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.99</Mass>
+<CenterOfMass>-7.9608933361002154e-10 -0.00041625187628973118 1.2023580211407817e-10</CenterOfMass>
+<Inertia>0.1003509472767096 0.20029312532139101 0.10035094699136234 2.1586265990727477e-13 -3.3161061058129932e-13 -2.9828892259904202e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Frontwheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Handle bar" uid="Handle bar*:*Default" version="2008">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Handle bar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29999999999999999</Mass>
+<CenterOfMass>-3.7437067192924734e-06 0.016322428710719549 0.024515426198001743</CenterOfMass>
+<Inertia>0.00037998854188433498 0.0044859819311720076 0.004484152409535252 -0.00012330283447486504 1.0179465454294258e-07 -2.4992542902055235e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Handle bar_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="IMU" uid="IMU*:*Default" version="397">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="IMU.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20000000000000001</Mass>
+<CenterOfMass>0 0.033525641025641026 0.02</CenterOfMass>
+<Inertia>0.00011020627876397109 0.00014089743589743589 0.00019777038132807364 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="IMU_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0" b="0" a="1"/>
+<Diffuse r="0.75294117647058822" g="0" b="0" a="1"/>
+<Specular r="0.22588235294117645" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Junus" uid="Junus*:*Default" version="395">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Junus.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29999999999999999</Mass>
+<CenterOfMass>0 0 0.014859999999999998</CenterOfMass>
+<Inertia>0.00018932206249999998 0.00044133820999999991 0.00058649635249999994 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Junus_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Kickstand" uid="Kickstand*:*Default" version="403">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Kickstand.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.34000000000000002</Mass>
+<CenterOfMass>0.098204051247605922 0.0033523012613680273 0.0063117160384424144</CenterOfMass>
+<Inertia>7.2319518540362311e-05 0.0037900925118152513 0.0038579153709854918 4.3445269644400502e-06 -3.9676061679553145e-05 0.00011193125205539135</Inertia>
+</MassProperties>
+<GeometryFile name="Kickstand_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Magnet holder" uid="Magnet holder*:*Default" version="531">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Magnet holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040000000000000001</Mass>
+<CenterOfMass>-0.036209699880241711 0.0014999999999999998 0.0047903309237572458</CenterOfMass>
+<Inertia>7.1853766210120746e-05 9.1992963613439689e-05 2.0199197403318919e-05 0 -6.9382578030516271e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="Magnet holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Magnet" uid="Magnet*:*Default" version="410">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Magnet.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02</Mass>
+<CenterOfMass>0 0 0.0035000000000000001</CenterOfMass>
+<Inertia>9.0791666666666704e-07 9.0791666666666673e-07 1.6525000000000003e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Magnet_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor Holder" uid="Motor Holder*:*Default" version="850">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor Holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025270619539452387</Mass>
+<CenterOfMass>0.0015000000000000065 0.03193022568780101 2.9834080272008802e-08</CenterOfMass>
+<Inertia>3.8758662833203679e-05 1.3445174119146036e-05 2.5351394643366819e-05 3.928494906948927e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor Holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor" uid="Motor*:*Default" version="502">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.60332920941172563</Mass>
+<CenterOfMass>0.0011962648929459952 1.0761542234635694e-11 0.072202531769353664</CenterOfMass>
+<Inertia>0.0012583541753568828 0.0012677596002963983 8.6525014088489221e-05 -4.5650377537486487e-13 4.4674563925664906e-05 1.0494308942390374e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Diffuse r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Specular r="0.34313725490196079" g="0.32941176470588235" b="0.31960784313725488" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motorfäste2" uid="Motorfäste2*:*Default" version="541">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motorfäste2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0076821902754903868</Mass>
+<CenterOfMass>-0.0046938312602460277 0 -0.019197222315266129</CenterOfMass>
+<Inertia>3.1953114474301308e-06 2.2586853496009417e-06 1.1061902078724637e-06 0 -2.076808296208817e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motorfäste2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motorfäste3" uid="Motorfäste3*:*Default" version="500">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motorfäste3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0072495132319207751</Mass>
+<CenterOfMass>0.0061827004909037501 0 0.0015</CenterOfMass>
+<Inertia>1.0029279900139945e-06 4.0954337702939985e-06 5.0874874904601118e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motorfäste3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pegs" uid="Pegs*:*Default" version="398">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pegs.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17000000000000001</Mass>
+<CenterOfMass>0 0 0.050000000000000003</CenterOfMass>
+<Inertia>0.0001648929166666669 0.0001648929166666669 4.6452500000000016e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Pegs_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RoboRIO" uid="RoboRIO*:*Default" version="396">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RoboRIO.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33000000000000002</Mass>
+<CenterOfMass>0 0 0.010455000000000001</CenterOfMass>
+<Inertia>0.00059941889150000002 0.00057578786375000015 0.0011511592097500003 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RoboRIO_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SupportBar" uid="SupportBar*:*Default" version="438">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SupportBar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.34999999999999998</Mass>
+<CenterOfMass>-0.00066060135282969713 -0.0027540551078917876 0</CenterOfMass>
+<Inertia>0.0020052506927051485 0.0020165699182955687 5.4047217011977791e-05 0 0 4.6938212531363339e-07</Inertia>
+</MassProperties>
+<GeometryFile name="SupportBar_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U-Bolt" uid="U-Bolt*:*Default" version="522">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U-Bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.009685001523057863</Mass>
+<CenterOfMass>0.00390031018341411 0 0</CenterOfMass>
+<Inertia>6.4881600118888627e-06 1.2545838106251372e-05 6.1351581065469728e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U-Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U-Bolt" uid="U-Bolt*:*Motor" version="514">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U-Bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060952455205860821</Mass>
+<CenterOfMass>0.0010844371930266942 0 0</CenterOfMass>
+<Inertia>1.7871826430456058e-06 3.2643432748348317e-06 1.5259225959539141e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U-Bolt_Motor_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Diffuse r="1" g="0.96862745098039216" b="0.87450980392156863" a="1"/>
+<Specular r="0.29999999999999999" g="0.29058823529411765" b="0.26235294117647057" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="seat" uid="seat*:*Valor predeterminado" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="seat.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.62</Mass>
+<CenterOfMass>0.61975373594772321 0.14312292521215253 4.2239981757690567e-07</CenterOfMass>
+<Inertia>0.002117484825276171 0.002660088946456599 0.0038899571386231567 -4.0718387948023427e-09 -2.1300939968524627e-08 -0.00022326891830300887</Inertia>
+</MassProperties>
+<GeometryFile name="seat_Valor predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
