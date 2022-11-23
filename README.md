@@ -7,6 +7,8 @@ Requried toolboxes:
 
 control_toolbox
 
+Model Predictive Control Toolbox 
+
 distrib_computing_toolbox
 
 image_toolbox
