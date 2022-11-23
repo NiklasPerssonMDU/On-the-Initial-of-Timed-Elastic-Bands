@@ -3,26 +3,26 @@ The code and simulation for the IFAC WC2023 submission "On the Initial of Timed-
 
 The code is written in matlab 2022b and the simulation is created in simulink 2022b
 
-Requried toolboxes:
+Requried software and toolboxes:
 
-control_toolbox
+Matlab 2022b
+
+Simulink 2022b
+
+Control System Toolbox
 
 Model Predictive Control Toolbox 
 
-distrib_computing_toolbox
+Parallel Computing Toolbox 
 
-image_toolbox
+Image Processing Toolbox 
 
-matlab 2022b
+Navigation Toolbox
 
-mpc_toolbox
+Signal Processing Toolbox
 
-navigation_toolbox
+Simscape Multibody 
 
-signal_toolbox
+Simscape
 
-simmechanics
 
-simscape
-
-simulink 2022b
