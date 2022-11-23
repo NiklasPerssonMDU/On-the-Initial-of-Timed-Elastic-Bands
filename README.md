@@ -6,9 +6,10 @@ The code is written in matlab 2022b and the simulation is created in simulink 20
 Requried toolboxes:
 
 control_toolbox
+
 image_toolbox
 
-matlab
+matlab 2022b
 
 mpc_toolbox
 
@@ -20,4 +21,4 @@ simmechanics
 
 simscape
 
-simulink
+simulink 2022b
