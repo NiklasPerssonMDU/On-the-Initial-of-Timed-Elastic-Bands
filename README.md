@@ -8,7 +8,7 @@ Niklas Persson, Martin C. Ekström, Mikael Ekström, Alessandro V. Papadopoulos
 
 The code is written in MATLAB 2022b and the simulation is created in Simulink 2022b
 
-### Requried toolboxes
+### Required toolboxes
 
 - [Control System Toolbox](https://se.mathworks.com/products/control.html)
 - [Model Predictive Control Toolbox](https://se.mathworks.com/products/model-predictive-control.html)
@@ -21,10 +21,10 @@ The code is written in MATLAB 2022b and the simulation is created in Simulink 20
 
 ## Usage
 - Run `comparePP.m` to create 300 random mazes and plan a path on each maze using A*, Theta*, Hybrid A*, and RRT*. Each planned path is also optimised using Time Elastic Bands. 
-	- Important Note: This file takes a long time to execute, about 24hours when running with 8 cores at 2.3MHz. 
-	- The file `PPallRes.mat` in the `data` folder includes the data which was used to create the results in the paper. 
-- Run `postProcess.m` to compute the path length, the curvature and the IAT for all paths on all mazes from the ´PPallRes.mat´ file.
-- Run `simBicycle.m` to start the simulation of the autonomous bicycle tracking a path planned by Optimised Theta*. 
+	- __Important Note:__ This file takes a long time to execute, about 24hours when running with 8 cores at 2.3MHz. 
+	- The file `PPallRes.mat` in the _data_ folder includes the data which was used to create the results in the paper. 
+- Run `postProcess.m` to compute the path length, the curvature and the IAT for all paths on all mazes from the `PPallRes.mat` file.
+- Run `simBicycle.m` to start the simulation of the autonomous bicycle tracking a path planned by Optimised Theta*. It will open the SimMechanics window and visualise the simulation.
  
 
 
