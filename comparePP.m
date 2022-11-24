@@ -109,28 +109,3 @@ for j = 1:3
         send(q,['Iteration j=', num2str(j), ', i=', num2str(i), ' complete'])
     end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%
-% figure(2)
-% hold on
-% j_idx = 1;
-% i_idx = 9;
-% show(maze(j_idx, i_idx).inflatedMap)
-% scatter(maze(j_idx, i_idx).goal(1), maze(j_idx, i_idx).goal(2))
-% scatter(maze(j_idx, i_idx).start(1), maze(j_idx, i_idx).start(2))
-% hold off
-% [AstarPathFound, AstarPath] = planAstar(maze(1,9));

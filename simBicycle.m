@@ -1,15 +1,11 @@
 clc
 clear
 close all
-
-
 addpath(genpath('simLibrary'))
 addpath ppLibrary\
+
 %run this file to intialise the simscape model
 BicycleModel_DataFile;
-
-
-
 %load the model
 load_system("BicycleModel_MPC");
 %chose if you want to save the data into csv files or not

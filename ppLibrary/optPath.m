@@ -8,15 +8,11 @@ NumSamples = round((distance / (v/3.6)) * 10);
 x = waypoints(:,1);
 y = waypoints(:,2);
 
-xway = x;
-yway = y;
-
 for i = 1:length(x)-1
     heading (i,1) = atan2( (y(i+1)-y(i)), (x(i+1)-x(i)) ); %theta
 end
 
 heading= [heading; heading(end)];
-
 nonOptPath = [x, y, heading];
 
 %% set options
@@ -93,58 +89,4 @@ TrajSol.pos = [x, y, heading];
 TrajSol.vel = refVel; 
 TrajSol.timeSamp = newTime;
 
-
-
-
-
-
-
-
-
-
-
-%% Plot the results
-
-figure(322)
-clf
-subplot(3,1,1)
-hold on
-plot(timeStamp,q(:,1))
-plot(newTime, x)
-hold off
-
-subplot(3,1,2)
-hold on
-plot(timeStamp,q(:,2))
-plot(newTime, y)
-hold off
-
-subplot(3,1,3)
-hold on
-plot(timeStamp,refVel)
-plot(newTime, v)
-hold off
-refVel = v;
-heading=[];
-
-figure(323)
-clf
-hold on
-show(map)
-plot(xway,yway)
-plot(q(:,1), q(:,2))
-hold off
-
-figure(324)
-clf
-hold on
-scatter(x,y)
-hold off
-
-figure(325)
-clf
-hold on
-scatter(q(:,1), q(:,2))
-hold off
-q=[x' ; y'];
 end
