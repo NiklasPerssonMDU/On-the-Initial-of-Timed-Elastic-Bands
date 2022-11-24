@@ -20,11 +20,11 @@ The code is written in MATLAB 2022b and the simulation is created in Simulink 20
 - [Simscape](https://se.mathworks.com/products/simscape.html)
 
 ## Usage
-- Run ´comparePP.m´ to create 300 random mazes and plan a path on each maze using A*, Theta*, Hybrid A*, and RRT*. Each planned path is also optimised using Time Elastic Bands. 
-	*Important Note: This file takes a long time to execute, about 24hours when running with 8 cores at 2.3MHz. 
-	*The file ´PPallRes.mat´ in the ´data´ folder includes the data which was used to create the results in the paper. 
-- Run ´postProcess.m´ to compute the path length, the curvature and the IAT for all paths on all mazes from the ´PPallRes.mat´ file.
-- Run ´simBicycle.m´ to start the simulation of the autonomous bicycle tracking a path planned by Optimised Theta*. 
+- Run `comparePP.m` to create 300 random mazes and plan a path on each maze using A*, Theta*, Hybrid A*, and RRT*. Each planned path is also optimised using Time Elastic Bands. 
+	- Important Note: This file takes a long time to execute, about 24hours when running with 8 cores at 2.3MHz. 
+	- The file `PPallRes.mat` in the `data` folder includes the data which was used to create the results in the paper. 
+- Run `postProcess.m` to compute the path length, the curvature and the IAT for all paths on all mazes from the ´PPallRes.mat´ file.
+- Run `simBicycle.m` to start the simulation of the autonomous bicycle tracking a path planned by Optimised Theta*. 
  
 
 
