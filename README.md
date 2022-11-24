@@ -1,28 +1,24 @@
-# On-the-Initial-of-Timed-Elastic-Bands
-The code and simulation for the IFAC WC2023 submission "On the Initial of Timed-Elastic Bands"
+# On the Initialization Problem for Timed-Elastic Bands
+The code and simulation for the IFAC WC2023 submission "On the Initialization Problem for Timed-Elastic Bands"
 
-The code is written in matlab 2022b and the simulation is created in simulink 2022b
+## Authours
+Niklas Persson, Martin C. Ekström, Mikael Ekström, Alessandro V. Papadopoulos
 
-Requried software and toolboxes:
+## Setup 
 
-Matlab 2022b
+The code is written in MATLAB 2022b and the simulation is created in Simulink 2022b
 
-Simulink 2022b
+### Requried toolboxes
 
-Control System Toolbox
+- [Control System Toolbox](https://se.mathworks.com/products/control.html)
+- Model Predictive Control Toolbox 
+- Parallel Computing Toolbox 
+- Image Processing Toolbox 
+- Navigation Toolbox
+- Signal Processing Toolbox
+- Simscape Multibody 
+- Simscape
 
-Model Predictive Control Toolbox 
-
-Parallel Computing Toolbox 
-
-Image Processing Toolbox 
-
-Navigation Toolbox
-
-Signal Processing Toolbox
-
-Simscape Multibody 
-
-Simscape
+## Usage
 
 
