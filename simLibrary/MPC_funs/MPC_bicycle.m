@@ -1,5 +1,4 @@
 function [simParams ] = MPC_bicycle(refPoses, v, pidParam, Ts)
-
 %% Bicycle model parameters
 BikeParam.a      = 0.4728; % horisontal distance from the rear wheel to CoG
 BikeParam.v      = v/3.6; % nominal velocity

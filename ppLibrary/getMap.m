@@ -1,4 +1,4 @@
-function [maze] = getMap (xlen, ylen, nObs, obsRadius)
+function [maze] = getMap (xlen, ylen, nObs, obsRadius,seedNr)
 %Create a randomised maze with size equal to xlen and ylen. The
 %obstacles are inflated by the obsRadius parameter. nObs sets the
 %number of obstacles in the map.
@@ -12,10 +12,8 @@ function [maze] = getMap (xlen, ylen, nObs, obsRadius)
 % set in options to the TEB, these two should be the same.
 
 
-%Keep track of the seed number to be able to reproduce the maps
-%seedNr = randi(10000000);
-    seedNr = 5106216;
-    rng(seedNr)
+
+
 rng(seedNr)
 inflatedMap = mapMaze(8,3,'MapSize',[xlen ylen],'MapResolution',1);
 rng(seedNr)

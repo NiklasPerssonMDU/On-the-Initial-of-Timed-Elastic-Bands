@@ -1,4 +1,8 @@
 function [] = setupWorld(map, newMap, startPos)
+%turn off warning about the local solver not supported, which it indeed
+%seems to be
+warning('off','sm:sli:setup:compile:LocalSolverNotSupported')
+
 %sub model where the world is created
 submdl = 'BicycleModel_MPC/Bicycle/WorldSetup/';
 offset = 0.5;

@@ -12,7 +12,7 @@ SimTime = length(refX) * Ts;
 
 
 %Spline which is used to highlight the reference trajectory in simulation
-refSpline = [ (refX - startPos(1)), (-refY + startPos(2) + yOff)];
+refSpline = [ (refX - startPos(1)), (-refY + startPos(2))];
 refSpline = refSpline * [cos(refTheta(1)), -sin(refTheta(1)); sin(refTheta(1)), cos(refTheta(1))];
 
 %Remove the first theta from the rest, so we always start at the same

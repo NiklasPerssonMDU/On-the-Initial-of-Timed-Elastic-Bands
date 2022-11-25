@@ -1,11 +1,12 @@
-function [offset, maze, trajSol] = planForBike (saveData)
+function [offset, maze, trajSol] = planForBike (saveData, seedNr)
 xlen = 50; %x axis length
 ylen = 50; %y axis length
 NrOfObs = 0; %Number of obstacles
 obsRadius = 1; %radius of obstacles
 
+
 %% Get a map to plan on
-maze = getMap (xlen, ylen, NrOfObs, obsRadius);
+maze = getMap (xlen, ylen, NrOfObs, obsRadius, seedNr);
 
 % size of the map
 gridSize = maze.inflatedMap.GridSize;
@@ -38,7 +39,7 @@ plot(waypoints(:,1)-offset, waypoints(:,2)-offset,'linewidth',2)
 %plot smooth path
 plot(trajSol.pos(:,1), trajSol.pos(:,2), 'linewidth' ,2)
 title ('Planned path using opt. Theta*')
-legend ('Start pos', 'Goal pos', 'Theta* path', 'Smooth path', 'Location','northeastoutside')
+legend ('Start pos', 'Goal pos', 'Theta* path', 'Optimised Theta* path', 'Location','northeastoutside')
 axis ([0, xlen, 0, ylen])
 hold off
 

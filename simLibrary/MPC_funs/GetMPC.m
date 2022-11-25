@@ -1,16 +1,17 @@
 function [BikeMPC] = GetMPC(BikeModel,v)
+mpcverbosity off;
 %% create MPC controller object with sample time
 BikeMPC = mpc(BikeModel);
 %% specify prediction horizon
 BikeMPC.PredictionHorizon = 15; 
 %% specify control horizon
-BikeMPC.ControlHorizon = 5;  
+BikeMPC.ControlHorizon = 3;  
 %% specify nominal values for inputs and outputs
 BikeMPC.Model.Nominal.U = [v;0];
 BikeMPC.Model.Nominal.Y = [0;0;0;0;0];
 %% specify scale factors for inputs and outputs
 BikeMPC.MV(1).ScaleFactor = 1; %v in
-BikeMPC.MV(2).ScaleFactor = 1; %phi ref in
+BikeMPC.MV(2).ScaleFactor = 1.5; %phi ref in
 BikeMPC.OV(1).ScaleFactor = 1; %yaw 
 BikeMPC.OV(2).ScaleFactor = 1; %x
 BikeMPC.OV(3).ScaleFactor = 2.5; %y 

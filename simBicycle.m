@@ -12,7 +12,11 @@ load_system("BicycleModel_MPC");
 saveData = 0;
 
 %% Plan a path using Theta* and optimise using Time elastic bands
-[offset, maze, trajSol] = planForBike(saveData);
+%Keep track of the seed number to be able to reproduce the maps
+seedNr = randi(10000000);
+seedNr = 5106216;
+
+[offset, maze, trajSol] = planForBike(saveData, seedNr);
 
 %% Sample rates
 Ts=0.1; %Outer loop (10Hz)
