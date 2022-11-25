@@ -25,6 +25,12 @@ The code is written in MATLAB 2022b and the simulation is created in Simulink 20
 	- The file `PPallRes.mat` in the _data_ folder includes the data which was used to create the results in the paper. 
 - Run `postProcess.m` to compute the path length, the curvature and the IAT for all paths on all mazes from the `PPallRes.mat` file.
 - Run `simBicycle.m` to start the simulation of the autonomous bicycle tracking a path planned by Optimised Theta*. It will open the SimMechanics window and visualise the simulation.
+
+## Media
+- `BicycleTrackingVideo.mp4` is a video of the autonomous bicycle tracking the path planned by the Optimised Theta*. 
+
+## Contact
+[niklas.persson@mdu.se](mailto:niklas.persson@mdu.se)
  
 
 
