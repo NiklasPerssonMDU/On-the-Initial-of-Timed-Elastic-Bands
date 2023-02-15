@@ -36,3 +36,4 @@ The code is written in MATLAB 2022b and the simulation is created in Simulink 20
 
 
 
+# Bicycle-SimscapeModel
